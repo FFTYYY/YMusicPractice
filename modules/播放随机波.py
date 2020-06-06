@@ -18,7 +18,7 @@ def 生成随机波(主导频率 , 长度):
 
 	k = random.randint(1 , 5)
 	for i in range(k):
-		振幅 = random.random()* 0.5
+		振幅 = random.random()* 0.2
 
 		乘或除 = random.randint(0,1) * 2 - 1 #指数
 		倍数 = (random.randint(3,9)/2)
