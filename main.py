@@ -6,6 +6,7 @@ from 练习 import 练习
 from 听音识名 import 听音识名
 from 看名唱音 import 看名唱音
 from 跟唱 import 跟唱
+from 自由练习_唱 import 自由练习_唱
 import os , sys
 
 
@@ -19,6 +20,7 @@ while True:
 2）听音识名
 3）看名唱音
 4）跟唱
+5）自由练习（唱）
 >> """)
 	x = x.strip()
 	if x == "":
@@ -42,3 +44,5 @@ while True:
 	elif x == 4:
 		练 = 跟唱()
 		练.run()
+	elif x == 5:
+		自由练习_唱()
