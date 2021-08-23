@@ -79,7 +79,7 @@ def 画频率分布图(x , f , noise = (None,None) , lim = -1):
 		ny , nx = 时域转频域(nx,nf)
 		y -= ny
 
-	y = 平滑(y)
+	y = 平滑(y , 10)
 
 	if lim > 0:
 		t = 1 / (x[1] - x[0])
